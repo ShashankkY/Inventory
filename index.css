@@ -1,0 +1,221 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f5f5f5;
+      min-height: 100vh;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 30px;
+      font-size: 2rem;
+    }
+
+    form {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+      margin-bottom: 30px;
+      padding: 25px;
+      background: #fff;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 30px;
+    }
+
+    input {
+      padding: 12px 15px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      min-width: 180px;
+      font-size: 16px;
+    }
+
+    input:focus {
+      outline: none;
+      border-color: #007bff;
+    }
+
+    button {
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      background: #007bff;
+      color: white;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: normal;
+    }
+
+    button:hover {
+      background: #0056b3;
+    }
+
+    button:disabled {
+      background: #ccc;
+      cursor: not-allowed;
+    }
+
+    .item-list {
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .item {
+      background: #fff;
+      padding: 20px;
+      border-radius: 4px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+    }
+
+    .item:hover {
+      border-color: #007bff;
+    }
+
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 15px;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .item-details {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    .item-details strong {
+      font-size: 1.3rem;
+      color: #333;
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    .item-details .description {
+      color: #666;
+      margin-bottom: 5px;
+    }
+
+    .item-details .price {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #28a745;
+    }
+
+    .quantity-info {
+      margin: 10px 0;
+    }
+
+    .quantity-display {
+      font-weight: 600;
+      color: #333;
+    }
+
+    .status-message {
+      font-weight: 600;
+      margin-top: 5px;
+    }
+
+    .out-of-stock {
+      color: #dc3545;
+    }
+
+    .cost-display {
+      color: #28a745;
+      font-weight: 600;
+      margin-top: 5px;
+    }
+
+    .item-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      min-width: 320px;
+    }
+
+    .buy-section {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .buy-buttons {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .buy-buttons button {
+      background: green;
+      padding: 8px 12px;
+      font-size: 14px;
+      min-width: 60px;
+    }
+
+    .buy-buttons button:hover {
+      background: linear-gradient(135deg, #218838 0%, #1ea783 100%);
+    }
+
+    .custom-buy {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .custom-buy input {
+      width: 80px;
+      min-width: 80px;
+      padding: 8px 10px;
+      font-size: 14px;
+    }
+
+    .custom-buy button {
+      background: orange;
+      color: #333;
+      font-weight: 600;
+    }
+
+    .custom-buy button:hover {
+      background: linear-gradient(135deg, #e0a800 0%, #e8610b 100%);
+    }
+
+    .restock-section {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .restock-section input {
+      width: 100px;
+      min-width: 100px;
+      padding: 8px 10px;
+      font-size: 14px;
+    }
+
+    .restock-section button {
+      background: linear-gradient(135deg, #6f42c1 0%, #e83e8c 100%);
+    }
+
+    .restock-section button:hover {
+      background: linear-gradient(135deg, #5a32a3 0%, #d91a72 100%);
+    }
+
